@@ -337,7 +337,7 @@
                           <mva:VisualBasicValue x:TypeArguments="x:Boolean" ExpressionText="myPostStep &lt;= maxPostSteps" sap2010:WorkflowViewState.IdRef="VisualBasicValue`1_1" />
                         </ui:InterruptibleWhile.Condition>
                       </ui:InterruptibleWhile>
-                      <ui:SendHotkey ClickBeforeTyping="{x:Null}" DelayBefore="{x:Null}" DelayBetweenKeys="{x:Null}" EmptyField="{x:Null}" SendWindowMessages="{x:Null}" Activate="True" DelayMS="100" DisplayName="Send Hotkey" sap:VirtualizedContainerService.HintSize="433.6,117.6" sap2010:WorkflowViewState.IdRef="SendHotkey_13" Key="enter" KeyModifiers="None" SpecialKey="True">
+                      <ui:SendHotkey ClickBeforeTyping="{x:Null}" DelayBefore="{x:Null}" DelayBetweenKeys="{x:Null}" EmptyField="{x:Null}" SendWindowMessages="{x:Null}" Activate="True" DelayMS="9000" DisplayName="Send Hotkey" sap:VirtualizedContainerService.HintSize="433.6,117.6" sap2010:WorkflowViewState.IdRef="SendHotkey_13" Key="enter" KeyModifiers="None" SpecialKey="True">
                         <ui:SendHotkey.Target>
                           <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" Selector="{x:Null}" Id="270579a1-1cef-4238-9940-dced05aa57b7">
                             <ui:Target.TimeoutMS>
@@ -350,7 +350,7 @@
                         </ui:SendHotkey.Target>
                       </ui:SendHotkey>
                     </Sequence>
-                    <ui:CloseWindow Selector="{x:Null}" TimeoutMS="{x:Null}" UseWindow="{x:Null}" DisplayName="Close GoogleImage window" sap:VirtualizedContainerService.HintSize="475.2,107.2" sap2010:WorkflowViewState.IdRef="CloseWindow_3" InformativeScreenshot="d1e5b41ad46ca1d90ab624a28e557ebc" WaitForReady="INTERACTIVE" />
+                    <ui:CloseWindow Selector="{x:Null}" TimeoutMS="{x:Null}" UseWindow="{x:Null}" DisplayName="Close Facebook" sap:VirtualizedContainerService.HintSize="475.2,107.2" sap2010:WorkflowViewState.IdRef="CloseWindow_3" InformativeScreenshot="d1e5b41ad46ca1d90ab624a28e557ebc" WaitForReady="INTERACTIVE" />
                   </Sequence>
                 </ActivityAction>
               </ui:OpenBrowser.Body>
